@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pq7</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h2 id="polymorphism-and-references">Polymorphism and References</h2>
+<h3 id="cat-equality">Cat Equality</h3>
+<pre><code>public class Cat {
+	private String name;
+	private String breed;
+	private int lives;
+	public Cat(String x, String y, int z) {
+		assert x != null;
+		assert y != null;
+		assert z &gt; 0 &amp;&amp; z &lt;= 9;
+		name = x;
+		breed = y;
+		lives = z;
+	}
+	@Override
+	public boolean equals(Object a) {
+		if (!(a instanceof Cat)) {
+			return false;
+		}
+		return name.equals(a.name) &amp;&amp; breed.equals(a.breed);
+		// ^non primitive types so use .equals() to compare
+	}
+}
+</code></pre>
+<h3 id="flammable-starter">Flammable Starter</h3>
+<pre><code>public class Starter {
+	public static String start(Flammable x) {
+		if (x instanceof Match) {
+			return ((Match) x).strike();
+		} else if (x instanceof Leaves) {
+			return ((Leaves) x).ember();
+		} else if (x instanceof Grill) {
+			return ((Grill) x).charcoal();
+		}
+		return null;
+	}
+}
+</code></pre>
+<h3 id="all-or-nothing">All or Nothing</h3>
+<pre><code>public class All {
+	public static Item[] orNothing(int count, boolean x) {
+		Item[] a = new Item[count];
+		Item b = new Item();
+		if (x) {
+			for (int i = 0; i &lt; count; i++) {
+				a[i] = (Item) b;
+			}
+		} else {
+			for (int i = 0; i &lt; count; i++) {
+				a[i] = new Item();
+			}
+		}
+		return a;
+	}
+}
+
+
+
+
+</code></pre>
+</div>
+</body>
+
+</html>
