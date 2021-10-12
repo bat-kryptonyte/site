@@ -28,7 +28,7 @@
 		if (!(a instanceof Cat)) {
 			return false;
 		}
-		return name.equals(a.name) &amp;&amp; breed.equals(a.breed);
+		return name.equals(((Cat)a).name) &amp;&amp; breed.equals(((Cat)a).breed);
 		// ^non primitive types so use .equals() to compare
 	}
 }
