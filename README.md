@@ -1,3 +1,2 @@
 # bat-kryptonyte.github.io
-Portfolio Website
-www.bat-kryptonyte.tech
+[Portfolio Website](bat-kryptonyte.tech)
