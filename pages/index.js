@@ -1,12 +1,11 @@
 import Container from '@/components/Container'
-import ContentCard from '@/components/ContentCard'
 
-export default function Home({ articles }) {
+export default function Home() {
   return (
     <>
       <Container title="Jeffrey Deng">
         <div className="max-w-2xl text-neutral-900 sm:text-2xl text-lg tracking-wide sm:mt-7 mt-5 dark:text-neutral-200">
-          Hi.
+          Hi there.
         </div>
         <div className="max-w-2xl text-neutral-900 sm:text-2xl text-lg tracking-wide sm:mt-7 mt-5 dark:text-neutral-200">
         My name is Jeffrey, aka 邓策中 (dèng cè zhōng) or @bat_kryptonyte to some.
