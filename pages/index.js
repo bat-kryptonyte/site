@@ -64,14 +64,14 @@ export default function Home() {
             Twitter
           </a>
           <a
-            href="https://linkedin.com/in/"
+            href="https://linkedin.com/in/bat-kryptonyte"
             rel="noreferrer"
             target="_blank"
           >
             LinkedIn
           </a>
           <a
-            href="https://instagram.com/bat-kryptonyte"
+            href="https://instagram.com/bat_kryptonyte"
             rel="noreferrer"
             target="_blank"
           >
