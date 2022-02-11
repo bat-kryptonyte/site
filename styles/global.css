@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Ubuntu Mono', monospace;
+  src: url(/fonts/UbuntuMono-Regular.tff) format('tff');
+}
