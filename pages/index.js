@@ -8,7 +8,7 @@ export default function Home() {
           Hello there.
         </div>
         <div className="max-w-2xl text-neutral-900 sm:text-2xl text-lg tracking-wide sm:mt-7 mt-5 dark:text-neutral-200">
-        My name is Jeffrey, aka 邓策中(dèng cè zhōng) or @bat_kryptonyte to some. 
+        I am Jeffrey, aka 邓策中(dèng cè zhōng) or @bat_kryptonyte to some. 
         </div>
         <div className="max-w-2xl text-neutral-900 sm:text-2xl text-lg tracking-wide sm:mt-7 mt-5 dark:text-neutral-200">
           I&apos;m a freshman specializing in Mathematics and Computer Science, with an intended minor in Journalism at the {' '}
