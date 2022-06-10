@@ -11,27 +11,19 @@ export default function Home() {
         I am Jeffrey, aka 邓策中(dèng cè zhōng) or @bat_kryptonyte to some. 
         </div>
         <div className="max-w-2xl text-neutral-900 sm:text-2xl text-lg tracking-wide sm:mt-7 mt-5 dark:text-neutral-200">
-          I&apos;m a freshman specializing in Mathematics and Computer Science, with an intended minor in Journalism at the {' '}
+          I&apos;m an undergraduate student majoring in computer science and specializing in artificial intelligence and information networks at the {' '}
           <a
             className="underline decoration-neutral-300 dark:decoration-neutral-700"
-            href="https://illinois.edu/"
+            href="https://gatech.edu/"
             rel="noreferrer"
             target="_blank"
           >
-            University of Illinois.
+            Georgia Institute of Technology.
           </a>
           
         </div>
         <div className="max-w-2xl text-neutral-900 sm:text-2xl text-lg tracking-wide sm:mt-7 mt-5 dark:text-neutral-200">
-          I am currently working at {' '}
-          <a
-            className="underline decoration-neutral-300 dark:decoration-neutral-700"
-            href="https://spurlock.illinois.edu/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            Spurlock Museum
-          </a> as a fullstack web developer. My personal inspo and interests span across design, media, fintech, and all things software development. 
+         My personal inspo and interests span across design, media, fintech, and all things software development. 
           
         </div>
         <div className="max-w-2xl text-neutral-900 sm:text-2xl text-lg tracking-wide sm:mt-7 mt-5 dark:text-neutral-200">
