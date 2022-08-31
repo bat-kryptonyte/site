@@ -30,7 +30,7 @@ export default function Home() {
            Want to get in touch? Feel free to shoot me an {''}
            <a
             className="underline decoration-neutral-300 dark:decoration-neutral-700"
-            href="mailto:cezhong2@illinois.edu"
+            href="mailto:jeffreydcz@gatech.edu"
             rel="noreferrer"
             target="_blank"
           >
