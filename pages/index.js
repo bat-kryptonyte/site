@@ -11,7 +11,7 @@ export default function Home() {
         I am Jeffrey, aka 邓策中(dèng cè zhōng) or @bat_kryptonyte to some. 
         </div>
         <div className="max-w-2xl text-neutral-900 sm:text-2xl text-lg tracking-wide sm:mt-7 mt-5 dark:text-neutral-200">
-          I&apos;m an undergraduate student majoring in computer science and specializing in artificial intelligence and information networks at the {' '}
+          I&apos;m an undergraduate student majoring in computer science and specializing in artificial intelligence and information internetworks at the {' '}
           <a
             className="underline decoration-neutral-300 dark:decoration-neutral-700"
             href="https://gatech.edu/"
