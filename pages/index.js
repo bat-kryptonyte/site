@@ -23,7 +23,7 @@ export default function Home() {
           
         </div>
         <div className="max-w-2xl text-neutral-900 sm:text-2xl text-lg tracking-wide sm:mt-7 mt-5 dark:text-neutral-200">
-         My personal inspo and interests span across design, media, fintech, and all things software development. 
+         My personal inspo and interests span design, media, fintech, and all things software development. 
           
         </div>
         <div className="max-w-2xl text-neutral-900 sm:text-2xl text-lg tracking-wide sm:mt-7 mt-5 dark:text-neutral-200">
@@ -63,7 +63,7 @@ export default function Home() {
             LinkedIn
           </a>
           <a
-            href="https://instagram.com/bat_kryptonyte"
+            href="https://instagram.com/jeffreydcz"
             rel="noreferrer"
             target="_blank"
           >
