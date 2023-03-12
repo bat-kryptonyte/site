@@ -51,13 +51,6 @@ export default function Home() {
             GitHub
           </a>
           <a
-            href="https://twitter.com/batkryptonyte"
-            rel="noreferrer"
-            target="_blank"
-          >
-            Twitter
-          </a>
-          <a
             href="https://linkedin.com/in/bat-kryptonyte"
             rel="noreferrer"
             target="_blank"
