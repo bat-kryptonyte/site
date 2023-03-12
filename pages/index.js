@@ -4,6 +4,8 @@ export default function Home() {
   return (
     <>
       <Container title="Jeffrey Deng">
+        <script defer data-domain="jeffreydeng.vercel.app" src="https://plausible.io/js/script.js"></script>
+
         <div className="max-w-2xl text-neutral-900 sm:text-4xl text-2xl tracking-wide sm:mt-7 mt-5 dark:text-neutral-200">
           Hello there.
         </div>
