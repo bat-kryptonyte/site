@@ -7,13 +7,13 @@ export default function Home() {
         <script defer data-domain="jeffreydeng.vercel.app" src="https://plausible.io/js/script.js"></script>
 
         <div className="max-w-2xl text-neutral-900 sm:text-4xl text-2xl tracking-wide sm:mt-7 mt-5 dark:text-neutral-200">
-          Hello there.
+          Hi!
         </div>
         <div className="max-w-2xl text-neutral-900 sm:text-2xl text-lg tracking-wide sm:mt-7 mt-5 dark:text-neutral-200">
         I am Jeffrey, aka 邓策中(dèng cè zhōng) or @bat_kryptonyte to some. 
         </div>
         <div className="max-w-2xl text-neutral-900 sm:text-2xl text-lg tracking-wide sm:mt-7 mt-5 dark:text-neutral-200">
-          I&apos;m an undergraduate student majoring in computer science and specializing in artificial intelligence and information internetworks at the {' '}
+          I&apos;m an undergraduate student majoring in computer science with concentrations in artificial intelligence and theory of computation at the {' '}
           <a
             className="underline decoration-neutral-300 dark:decoration-neutral-700"
             href="https://gatech.edu/"
@@ -70,6 +70,13 @@ export default function Home() {
             target="_blank"
           >
             Instagram
+          </a>
+          <a
+            href="https://www.zhihu.com/people/bat-kryptonyte"
+            rel="noreferrer"
+            target="_blank"
+          >
+            知乎
           </a>
         </div>
         
