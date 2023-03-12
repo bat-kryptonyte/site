@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Ubuntu Mono', monospace;
-  src: url(/fonts/UbuntuMono-Regular.tff) format('tff');
+  font-family: 'Hoefler Text', Regular;
+  src: url(/fonts/hoefler.tff) format('tff');
 }
