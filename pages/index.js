@@ -7,10 +7,10 @@ export default function Home() {
         <script defer data-domain="jeffreydeng.vercel.app" src="https://plausible.io/js/script.js"></script>
 
         <div className="max-w-2xl text-neutral-900 sm:text-4xl text-2xl tracking-wide sm:mt-7 mt-5 dark:text-neutral-200">
-          Hi!
+          Hello there!
         </div>
         <div className="max-w-2xl text-neutral-900 sm:text-2xl text-lg tracking-wide sm:mt-7 mt-5 dark:text-neutral-200">
-        I am Jeffrey, aka 邓策中(dèng cè zhōng) or @bat_kryptonyte to some. 
+        I am Jeffrey, or 邓策中(dèng cè zhōng) to some. 
         </div>
         <div className="max-w-2xl text-neutral-900 sm:text-2xl text-lg tracking-wide sm:mt-7 mt-5 dark:text-neutral-200">
           I&apos;m an undergraduate student majoring in computer science with concentrations in artificial intelligence and theory of computation at the {' '}
@@ -25,7 +25,7 @@ export default function Home() {
           
         </div>
         <div className="max-w-2xl text-neutral-900 sm:text-2xl text-lg tracking-wide sm:mt-7 mt-5 dark:text-neutral-200">
-         My personal inspo and interests span design, media, fintech, and all things software development. 
+         My personal interests span design, media, fintech, and all things software development. 
           
         </div>
         <div className="max-w-2xl text-neutral-900 sm:text-2xl text-lg tracking-wide sm:mt-7 mt-5 dark:text-neutral-200">
