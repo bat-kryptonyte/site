@@ -34,7 +34,7 @@ export default function Home(): JSX.Element {
           hi there.
         </div>
         <div className={styles.textBody}>
-          My name is Jeffrey, or 鄧畟汷(dèng cè zhōng) to some.
+          My name is Jeffrey, or 鄧畟汷 (dèng cè zhōng) to some.
         </div>
         <div className={styles.textBody}>
           I am a product engineer and an undergraduate cs student studying ai, networks, and hpc at the&nbsp;  

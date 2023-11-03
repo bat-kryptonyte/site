@@ -1,7 +1,6 @@
 .screen {
   background-color: #F8F5FA;
-  height: 100vh;
-  overflow: scroll;
+  min-height: 100vh;
 }
 
 .container {
@@ -10,7 +9,6 @@
   min-width: 300px; 
   margin: auto;
   padding: 6rem 1rem; 
-  box-sizing: border-box; 
 }
 
 .textTitle {
@@ -101,7 +99,7 @@
   }
 
   .textBody {
-    font-size: calc(1em + 1vw);
+    font-size: calc(1em + 0.45vw);
   }
 
   .textLink {
