@@ -14,9 +14,11 @@ export default function Home(): JSX.Element {
       <Script
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+        id="google-analytics-script" 
       />
 
-      <Script strategy="lazyOnload">
+      <Script strategy="lazyOnload" 
+       id="google-analytics-inline-script" >
         {`
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
@@ -47,7 +49,7 @@ export default function Home(): JSX.Element {
           Want to get in touch? Feel free to shoot me an&nbsp; 
           <a className={styles.underline} href="mailto:jeffreydcz@gatech.edu" rel="noreferrer" target="_blank">
             email
-          </a> and check out my other online presences below! I'd always love to chat.
+          </a> and check out my other online presences below! I&apos;d always love to chat.
         </div>
 
         <div className={styles.textLink}>
