@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 import Script from "next/script";
-import styles from './Page.module.css';
+import styles from './page.module.css';
 
 
 export default function Home(): JSX.Element {
