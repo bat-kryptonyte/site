@@ -37,7 +37,7 @@ export default function Home(): JSX.Element {
           My name is Jeffrey, or 鄧畟汷 (dèng cè zhōng) to some.
         </div>
         <div className={styles.textBody}>
-          I am a product engineer and an undergraduate cs student studying ai, networks, and hpc at the&nbsp;  
+          I am a product engineer and an graduate cs student studying ai, networks, and hpc at the&nbsp;  
           <a className={styles.underline} href="https://gatech.edu/" rel="noreferrer" target="_blank">
              Georgia Institute of Technology.
           </a>
